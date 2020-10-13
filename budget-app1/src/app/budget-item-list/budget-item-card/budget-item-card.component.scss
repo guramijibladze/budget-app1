@@ -45,6 +45,11 @@
     border-radius: 5px;
     cursor: pointer;
 
+    transition: background-color 0.2 ease-out;
+    &:hover{
+        background-color: darken($light-grey, 10%);
+    }
+
     .description{
         display: flex;
         flex-grow: 1;
